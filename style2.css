@@ -371,6 +371,11 @@ span {
     margin-bottom: 3rem;
 }
 
+.heading {
+    margin-top: 100px;
+    margin-bottom: -220px;
+}
+
 .justify-grid {
     display: flex;
     justify-content: center;
