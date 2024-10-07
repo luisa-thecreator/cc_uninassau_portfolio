@@ -860,3 +860,32 @@ footer .copyright {
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+iframe {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 115rem;
+    height: 50rem;
+    background: transparent;
+    border: 0.2rem solid var(--main-color);
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+    color: var(--main-color);
+}
+
+h1 {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    color: #afbedb;
+    font-size: 3.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
